@@ -59,11 +59,16 @@ section .card .center .card-body hr{
 }
 .a2{
     text-align: center;
+    width: 400px;
+    margin: 0 auto;
 }
 @media (max-width:525px){
     header .pp{
         font-size: 25px;
         width: 400px;
+    }
+    .a2{
+        width: 380px;
     }
 }
 @media (max-width:420px){
@@ -74,11 +79,16 @@ section .card .center .card-body hr{
     section .card .center .card-body hr{
         width: 200px;
     }
+    .a2{
+        width: 350px;
+    }
 }
 @media (max-width:370px){
     header .pp{
         font-size: 18px;
         width: 280px;
     }
-   
+    .a2{
+        width: 300px;
+    }
 }
