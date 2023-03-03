@@ -3,288 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Macaca_store</title>
+    <title>KZM INDUSTRIES</title>    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header class="jumbotron text-center bg-dark">
-        <div class="macaca"> <h1>Macaca_store <span><p class="badge badge-danger">NFT - ринок</p></span></h1>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-muted">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarExample01"
+              aria-controls="navbarExample01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+            <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Головна</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" href="#" onclick="scrollToBlock('#block1')">Про Нас</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" href="#" onclick="scrollToBlock('#block2')">Замовити</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" href="#" onclick="scrollToBlock('#block3')">Наші Вороги</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <hr>
+        <div class="p-5 text-center bg-muted">
+          <h1>KZM <span class="badge badge-primary">Industries</span></h1>
         </div>
-        <div class="pp">
-            <p class="badge badge-warning">Найкращий магазин для усіх видів макак     
-            </p>
-        </div>
-
     </header>
-    <section>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlOCzTRAQ2BnlDlHkjTBioPagtkdEX8v4KM5G8PatcN0Vu6nBKFdxgo4hZxcfmtpsDWH0&usqp=CAU" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Женя  <span class="badge badge-danger">Продано</span></h5>
-                    <p class="card-text">Весела бібізяна, яка буде приносити задоволення і тапки до ліжка.</p>
-                    <h4>Ціна - одна завищена оцінка</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-secondary">Sold Out</a>
-                </div>  
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZa45X-5leK1vgpwoaEE9Q4gZnKh5UHDf4w&usqp=CAU" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Артем </h5>
-                    <p class="card-text">Трохи тупа бібізяна, яка буде кричати у мікро в дс, але її можна замутить і сміяться з нього.</p>
-                    <h4>Ціна - 3 рубля</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-danger">Бронь</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU75xkpw2FXc63JJcWkpq3JT5l__XcFAWt6Q&usqp=CAU" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Валера <span class="badge badge-warning">Дитя создателя</span></h5>
-                    <p class="card-text">Сама топова бібізянка, просто якшо її купите, не пошкодуєте.</p>
-                    <h4>Ціна - не продаються</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpdg18oWsl4fk7iZM7E1nD429Hgw9h-N9xMQ&usqp=CAU" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Нікіта <span class="badge badge-warning">Дитя создателя</span></h5>
-                    <p class="card-text">Сама топова бібізянка, просто якшо її купите, не пошкодуєте.</p>
-                    <h4>Ціна - не продаються</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAYK7hVyF87APL4xYztkeEsurhkA9o91Blzw&usqp=CAU" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Андрій <span class="badge badge-primary">Роутер</span></h5>
-                    <p class="card-text">Дуже цікава бібізяна, яка навчить вас історії третього рейху.</p>
-                    <h4>Ціна - пачка гречки</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRurDXCEcwCWs_tS6bk56J7APg7LFeczBVC3w&usqp=CAU" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Людмила Іванівна  <span class="badge badge-warning">Легенда</span></h5>
-                    <p class="card-text">Тоже класна бібізяна, яка буде вам як друга мама, і бить вас палкою тоже буде .</p>
-                    <h4>Ціна - 1 дзвінок батькам</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-danger">Бронь</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Макака Ліза</h5>
-                    <p class="card-text">Якщо ви хочете, щоб вона називала вас "ИДИОТЫ!!!", то ця бібізянка якраз для вас.</p>
-                    <h4>Ціна - ВЫ ИДИОТЫ!!!</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-danger">Бронь</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMl-cRXqqBkFUv0KxHrnrNakRitvsClBiMox8YfJbpL9CkXy4tRtj76cK7oKKZXDbPp4U&usqp=CAU" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Надюша Дорофеева <span class="badge badge-warning">Крашиха</span></h5>
-                    <p class="card-text">Сама топова бібізяна, бо автори магазину її буже люблять</p>
-                    <h4>Ціна - одна галерея в майнкрафті</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSytmh6FSV_sK3A4SjkHtepm-w1fNtKdmmgM19g5Zzs39nxZq9RPyW3uoPp9qmenU4ITA&usqp=CAU" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Оля Буділова</h5>
-                    <p class="card-text">Бібізяна - легенда сервера в діскорді</p>
-                    <h4>Ціна - один легендарний сервер в діскорді</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmJxWk_5mRai4nmqlqvUyEKHVql6mJEM5Yyw&usqp=CAU" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Брат Буділовой</h5>
-                    <p class="card-text">Брат легенди</p>
-                    <h4>Ціна - один легендарний сервак в діскорді</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://www.meme-arsenal.com/memes/5e02adb17c6c933d03a5d3b9c6045907.jpg" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Віктор Дудка <span class="badge badge-warning">Легенда</span></h5>
-                    <p class="card-text">Легендарна бібізяна, яка може змінювати образи. На рахунку такі як: Шрек, бомж, лунтік</p>
-                    <h4>Ціна - один бомж</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://i.obozrevatel.com/gallery/2008/2/18/61373_image_large.jpg" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Оля Полякова <span class="badge badge-secondary">Погана бібізяна</span></h5>
-                    <p class="card-text">Сама погана бібізяна, ніхто її не любе, даж артем лучше. Розробники цього сайту її не люблять.</p>
-                    <h4>Ціна - одна палка і безоплатне побиття</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://krasivosti.pro/uploads/posts/2021-04/1618328875_6-p-nakrashennaya-obezyana-obezyani-krasivo-fo-6.jpg" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Даша <span class="badge badge-warning">хароша бібізяна</span></h5>
-                    <p class="card-text">Сама корисна бібізяна, може буть старостою класу</p>
-                    <h4>Ціна - один скрін присутніх</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://oir.mobi/uploads/posts/2021-05/1619982056_44-oir_mobi-p-nakrashennaya-obezyana-zhivotnie-krasivo-f-47.jpg" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Cоня <span class="badge badge-warning">малюк</span></h5>
-                    <p class="card-text">Тоже добра бібізянка, друже з нами</p>
-                    <h4>Ціна - одна домашка</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Сивочолий Гетьман <span class="badge badge-warning">рішала проблем в країні</span></h5>
-                    <p class="card-text">Голосуй за Порошенкааааааа, бо б*я путін нападе</p>
-                    <h4>Ціна - Одна фабрика рошен</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7XVQWBSJR3ByYxMYSnQ2ckLE5qJsPC8Fq6A&usqp=CAU" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Дантес <span class="badge badge-secondary">бомж</span></h5>
-                    <p class="card-text">Не дуже добра бібізяна, того і живе сам, патлатий бомж</p>
-                    <h4>Ціна - одна Надя Дорофеева</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна подружка жені <span class="badge badge-warning">топ чел</span></h5>
-                    <p class="card-text">подружка мавпи жені, топ чел. Іде в подарунок до мавпи жені</p>
-                    <h4>Ціна - один день із женею</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-secondary">Sold Out</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://tn.fishki.net/26/upload/post/2019/09/19/3090813/24189393fdfb1d96f677d7fc57de9443.jpg" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяни іспаножопці <span class="badge badge-secondary">дибіли</span></h5>
-                    <p class="card-text">ціла країна макак, вони кнешно тупі, но кричать громко</p>
-                    <h4>Ціна - крик в країні</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://www.meme-arsenal.com/memes/7483abc7a81855e09b02cab72e8dad34.jpg" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяни жителі ракетки <span class="badge badge-secondary">вони в центрі живуть</span></h5>
-                    <p class="card-text">обізяни наркомани і алкаші. ше є з розумовим відхиленням " я в центре живу, Идиоты!!!"</p>
-                    <h4>Ціна - доза героїна</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
-            <div class="center">
-                <div class="card-body">
-                    <h5 class="card-title">Бібізяна Саша <span class="badge badge-warning">гвоздь</span></h5>
-                    <p class="card-text">норм бібізяна, жаль шо не в нашому класі</p>
-                    <h4>Ціна - коробка гвоздей</h4> 
-                    <hr> 
-                    <a href="#" class="btn btn-success">Придбати бібізянку</a>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <div class="a2">
-        <div class="alert alert-success" role="alert">
-        Made and Designed by <strong>hukovf</strong> and <strong>taranovf</strong>
+    <div class="header-main">
+        <img src="img/header.jpg" alt="header">
+        <div class="header-about">
+            <h1 class="text-light">Займемося охороною вашого дому/бізнесу/парти<br><p></p>
+            <u>Тут і зараз</u></h1>
         </div>
     </div>
+      <div class="box" id="block1">
+              <h1 class="badge badge-dark">Давайте Знайомитись!</h1>
+          <div class="pp">
+              <p class="badge badge-warning">ну прівет, фашисти</p>
+          </div>
+              <p>Давайте знайомитись! Наша компанія називається  <b> KZM_Industries</b>, 
+                в честь нашого геніального засновника, Андрія Кузьоми <b>(позивний: тостер, роутер).</b> 
+                Наша орагнізація спеціалізується на захисті приватних будівель,
+                фізичних осіб та великих офісів. Наші послуги є цілодобовими та висококваліфікованими. Отож, пропонуємо вам трохи краще познайомитися з нашими послугами та особливостями нашої роботи, адже вона дуже не проста, та дуже цікава. 
+          </p>
+      </div>
+      <div class="box">
+              <h1 class="badge badge-dark">Наша робота</h1>
+              <span class="badge badge-danger">попередження!</span>
+              <p>Отож, давайте поговоримо про умови та способи нашої праці) Наші працівники є кваліфікованими спеціалістами в області безпеки, адже усі вони проходили службу в лавах ЗСУ та СБУ. Не важко здогадатися, що вони використовують армічні методи в своїй роботі. <b>(наша праця є специфічна, та абсолютно законною в умовах військового стану
+              Усі наші медоти є авторськими та виконуються суворо по заповіту нашого создателя Андрія (тостера))</b>
+              <br><br><b>Отож наші методи:</b> 
+      <ul>
+              <li>метод кувалти та пряника - метод полягає у ліквідації ворогів методом ЧВК "Вагнер", ну а пряник хз чого, просто наш создатель так сказав, того так названий метод</li>
+              <li>метод приватизації дітей - метод полягає у захисті дітей від зовнішніх факторів. Це такі фактори як: не бажані стосунки (особливо для дівчаток), марна трата часу на прогулянки, вступ до ЧВК "Редан", та також заборона біологічно себе задовільняти.  </li> 
+              <li>метод слідкування за військовими інсайдами - метод полягає у моніторингу інформації від військових аналітиків, та єврейських військових</li>
+              <li>метод спілкування з ботами ChatGPT - метод полягає в спілкуванні з штучними інтелектами та постановки їм питаннь по типу: " Чи потрібна загальна мобілізація в Україні?" та багато інших</li>
+      </ul></p>
+           
+    </div>
+    <div class="box" id="block2">
+        <h1 class="badge badge-dark">Наші cпівробітники</h1>
+        <p> Отож, як ми згадували раніше, наші співробітники проходили службу в СБУ та ЗСУ, тому це дуже кваліфіковані кадрові військові. У нас на службі більше 100 військових, але ми розповімо вам про деяких з них. Це голови наших підрозділів та офіцери яки проявили себе гідно. Отож, давайте краще познайомимось з ними</p>
+    </div>
+<section class="se">
+    <div class="pp">
+    <div class="box1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEgUwFgYr6a3ngRWGt2GULwxqmh2Dt676BQ&usqp=CAU" alt="">
+      <p>вирішить з вашими ворогами проблеми дипломатичними шляхом. покаже де ставити підписи</p>
+    </div> 
+    <div class="box1">
+      <img src="data:image/jpeg;base64,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" alt="">
+      <p> буде намагатися вирішити проблеми розмовами, скаже вашим ворогам "Астанавитесь!", а потом втіче</p>
+    </div>
+    <div class="box1">
+      <img src="https://i.ytimg.com/vi/4RN-9r5tivM/mqdefault.jpg" alt="">
+      <p>вона трохи впаде в паніку при зустрічі з ворогами, буде казати "госпаді дапамажи, та в мене не то на суфльорі" </p>
+  </div>
+  <div class="box1">
+    <img src="https://yt3.googleusercontent.com/cPAh5pIs7oIih7s2s61z3M656RAXgvE1jZPMU9RcGIWGHUeycEHM3yKPzLmYjj3ziy5CpAEdxw=s900-c-k-c0x00ffffff-no-rj" alt="">
+    <p>В його арсенал входить моральне приниження усіх ворогів. Вбиває всіх словами "Я тебе кадык вырву су*а</p>
+  </div>
+  <div class="box1">
+      <img src="https://preview.redd.it/%D0%BC%D0%B8%D1%80%D0%BD%D0%BE%D0%B3%D0%BE-%D1%80%D1%96%D1%88%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BD%D0%B5-%D0%B1%D1%83%D0%B4%D0%B5-v0-k4z5mdgfg44a1.jpg?width=207&format=pjpg&auto=webp&s=fb1ce9a2cf539dbf420c2f0e8857bca095e3c3a9" alt="">
+      <p>ППО, забезпечить надійно проти повітряну оборону над вашою хатою, буде збивати ракети шоколадом рошен. Також може створити новий світ за власної каденції (послуга оплачується Коломойським)</p>
+  </div> 
+  
+  <div class="box1">
+    <img src="https://static2.gazeta.ua/img2/cache/preview/1055/1055921_w_300.jpg?v=0" alt="">
+    <p> чел, якому можна матюкатися на тв</p>
+  </div>
+  
+  <div class="box1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoqLwcY-ZqZ7AmYqtfFYZtU54qE7k_yHTamQ&usqp=CAU" alt="">
+    <p>цей еврей (падло), за ним плаче конслагерь, стирив гроші приватбанку, і запросив СБУ на кофе, і хочте прикол? вони прийшли </p>
+  </div>
+  <div class="box1">
+    <img src="https://static.ukrinform.com/photos/2018_08/thumb_files/630_360_1533891990-9768.jpg" alt="">
+    <p>цей чел помноже на ноль усіх ваших ворогів, бо вони для нього кнопки.</p>
+  </div>
+  </div>
+  <div class="cat">
+  <div class="box1">
+    <img src="https://static.espreso.tv/uploads/article/2826721/images/im-001.jpg" alt="">
+    <p>Тоже ше один єврей, но цей більш агресивний, поставе путіна на коліна і використає метод кувалди </p>
+  </div>
+  
+  <div class="box1">
+      <img src="https://zn.ua/img/article/3219/84_main.jpg" alt="">
+      <p>... <b>ТІКАЙТЕ, ПРОСТО ТІКАЙТЕ</b></p>
+  </div>
+  
+  <div class="box1">
+    <img src="https://pbs.twimg.com/media/CHxoKpmWsAAJGG8.jpg" alt="">
+    <p> Кіля Азіров, фото з чорним фільтром. він знешкодить ваших ворогів своїми дефектами мови. До прикладу:"Кровосіся, Підарунок" </p>
+  </div>
+  
+  <div class="box1">
+    <img src="https://s3.eu-central-1.amazonaws.com/img.hromadske.ua/posts/210330/photo5307958727904702807jpg/large.jpg" alt="">
+    <p>Засуджений очкастий одесит, який катував росіянина, тому росіянам одразу гг </p>
+  </div>
+  <div class="box1">
+    <img src="https://i.obozrevatel.com/gallery/2019/5/26/111.png" alt="">
+    <p>видатний боксер, построе мост, який видерже ракету, але його ні.. тоже забезпече ппо навколо вашої хати</p>
+  </div> 
+  <div class="box1">
+    <img src="https://i.obozrevatel.com/gallery/2019/5/26/61.png" alt="">
+    <p> Тіньовий клон попереднього, тоже страшний чел </p>
+  </div>
+  <div class="box1">
+    <img src="https://i.scdn.co/image/ab67616d0000b2736218f6e5ff7a39c2eaa4a6dc" alt="">
+    <p>буде намагатися впихнути невпихуєме, заставе ваших ворогів цілувать самим собі сраки. При обороні буде юзать вила, а потім застряне в ліфті </p>
+  </div>
+  <div class="box1">
+    <img src="data:image/jpeg;base64,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" alt="">
+    <p>під час нападу на ваш дім, буде героїчно тримати оборону в тайланді</p>
+  </div>
+  </div>
+</section>
 
+<div class="box" id="block3">
+  <h1 class="badge badge-dark">Наші вороги</h1>
+  <p>Так як наша орагнізація дуже професійна, ми вже знешкодили багатьох небезпечних злочинців. Давайте трохи краще розберемось з цим, та ми вам покажем з чим вже мали справу</p>
+</div>
+<section class="enemies">
+    <div class="box1">
+      <img src="https://www.tsn24.ru/upload/resize_cache/iblock/dea/1200_630_2/rqyfp440mdixxdjtqyy5ohqioa94wn2l.jpg" alt="">
+      <p>ЧВК Редан (також: "Риган", "Рагуль", "Деган" і т.п.)<br>чисельна терористична організація, була переможена методом кувалди і пряника</p>
+    </div>
+    <div class="box1">
+      <img src="data:image/jpeg;base64,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" alt="">
+      <p>чмоня, та впринципі вся рос армія, також була попущена методом ЗСУ і Хаймарса</p>
+    </div>
+
+    <div class="box1">
+      <img src="https://gdb.rferl.org/05e00000-0a00-0242-81dc-08d9947d6cd3_cx0_cy9_cw0_w408_r1_s.jpg" alt="">
+      <p>агент кремля, був знешкоджений, але на території іншої держави в нас немає повноважень його ліквідувати, тому він тепер зек</p>
+    </div>
+    <div class="box1">
+      <img src="https://kor.ill.in.ua/m/610x385/1352411.jpg" alt="">
+      <p>шо там жирік, здох? Російська ванга, сказав що помре, якшо росія програє, ну так воно і вийшло</p>
+    </div>
+</section>
+
+
+  <script>
+    function scrollToBlock(id) {
+      const block = document.querySelector(id);
+      block.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
 </body>
 </html>
